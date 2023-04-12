@@ -98,16 +98,16 @@ inquirer
     .then((promptInput) => {
         switch (promptInput.license) {
             case `MIT License`:
-                promptInput.licenseBadge = `!(https://img.shields.io/badge/license-MIT-blue)`;
+                promptInput.licenseBadge = `![This project's protection license.](https://img.shields.io/badge/license-MIT-blue)`;
                 break;
             case `GNU GPLv3 License`:
-                promptInput.licenseBadge = `!(https://img.shields.io/badge/license-GNU GPLv3-blue)`;
+                promptInput.licenseBadge = `![This project's protection license.](https://img.shields.io/badge/license-GNU GPLv3-blue)`;
                 break;
             case `Apache License 2.0`:
-                promptInput.licenseBadge = `!(https://img.shields.io/badge/license-Apache License 2.0-blue)`;
+                promptInput.licenseBadge = `![This project's protection license.](https://img.shields.io/badge/license-Apache License 2.0-blue)`;
                 break;
             default:
-                promptInput.licenseBadge = `!(https://img.shields.io/badge/license-MIT-blue)`;
+                promptInput.licenseBadge = `![This project's protection license.](https://img.shields.io/badge/license-MIT-blue)`;
                 break;
         }
         const mdContent = fillMD(promptInput);

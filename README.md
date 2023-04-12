@@ -1,6 +1,6 @@
 # nodejs-readme-generator
 
-!(https://img.shields.io/badge/license-MIT-blue)
+![This project's protection license.](https://img.shields.io/badge/license-MIT-blue)
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@ My very own simple ReadMe generator. Made using the criteria from Module 9 of my
 
 ## Installation
 
-Simply download the index.js file, then run the file (ideally inside it's own folder) with an installed instance of Node.
+Simply download the full repository and all of it's contents, then run the index file (ideally inside it's own folder) with an installed instance of Node via the command "node index.js".
 
 ## Usage
 
@@ -26,7 +26,7 @@ From either Git Bash or a command window, from the directory that the index.js f
 
 ## Demonstration
 
-!(./assets/gif/Demonstration.gif)
+![A gif demonstrating the unmatched power of Noah's ReadMe Generator.](./assets/gif/Demonstration.gif)
 
 ## Contribution Guidelines
 
